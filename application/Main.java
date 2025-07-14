@@ -1,7 +1,5 @@
 package application;
 
-import bordgame.Board;
-import bordgame.Position;
 import chess.ChessMatch;
 
 public class Main{
