@@ -1,6 +1,6 @@
-package chess;
+package src.chess;
 
-import bordgame.BoardException;
+import src.bordgame.BoardException;
 
 public class ChessExecpition extends BoardException{
     private static final long serialVersionUID = 1L;

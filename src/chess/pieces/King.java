@@ -1,9 +1,9 @@
-package chess.pieces;
+package src.chess.pieces;
 
-import bordgame.Board;
-import bordgame.Position;
-import chess.ChessPiece;
-import chess.Color;
+import src.bordgame.Board;
+import src.bordgame.Position;
+import src.chess.ChessPiece;
+import src.chess.Color;
 
 public class King extends ChessPiece {
 

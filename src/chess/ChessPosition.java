@@ -1,6 +1,6 @@
-package chess;
+package src.chess;
 
-import bordgame.Position;
+import src.bordgame.Position;
 
 public class ChessPosition {
     

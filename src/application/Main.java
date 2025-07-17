@@ -1,12 +1,12 @@
-package application;
+package src.application;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import chess.ChessExecpition;
-import chess.ChessMatch;
-import chess.ChessPiece;
-import chess.ChessPosition;
+import src.chess.ChessExecpition;
+import src.chess.ChessMatch;
+import src.chess.ChessPiece;
+import src.chess.ChessPosition;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
         while (true) {
             try {
                 UI.clearScreen();
-                UI.printBoard(chessMatch.getPieces());
+                UI.printMatch(chessMatch);
                 System.out.println();
                 System.out.print("Source: ");
                 ChessPosition source = UI.readChessPosition(sc);

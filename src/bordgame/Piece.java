@@ -1,4 +1,4 @@
-package bordgame;
+package src.bordgame;
 
 public abstract class Piece {
 
