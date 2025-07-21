@@ -10,6 +10,7 @@ import src.bordgame.Position;
 import src.chess.pieces.King;
 import src.chess.pieces.Pawn;
 import src.chess.pieces.Rook;
+import src.chess.pieces.Bishop;
 
 public class ChessMatch {
 
