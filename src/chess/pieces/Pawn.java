@@ -2,12 +2,13 @@ package src.chess.pieces;
 
 import src.bordgame.Board;
 import src.bordgame.Position;
+import src.chess.ChessMatch;
 import src.chess.ChessPiece;
 import src.chess.Color;
 
 public class Pawn extends ChessPiece {
 
-    public Pawn(Board board, Color color) {
+    public Pawn(Board board, Color color, ChessMatch chessMatch) {
         super(board, color);
     }
 
