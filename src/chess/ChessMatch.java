@@ -11,6 +11,8 @@ import src.chess.pieces.King;
 import src.chess.pieces.Pawn;
 import src.chess.pieces.Rook;
 import src.chess.pieces.Bishop;
+import src.chess.pieces.Knight;
+import src.chess.pieces.Queen;
 
 public class ChessMatch {
 
